@@ -4,8 +4,9 @@ WORKDIR /app
 
 # Create .env file with API keys for accessing news APIs
 # These keys are required to fetch data from the external sources
+
 RUN echo "VITE_NEWSAPI_ORG_API_KEY=ad1546fb3d09484f8444c45fc82d9a11" >> .env && \
-    echo "VITE_GUARDIAN_NEWS_API_KEY=5daa70a9-0ccb-4562-980c-deb5f302f278" >> .env && \
+    echo "VITE_GUARDIAN_NEWS_API_KEY=ee99b27a-6adc-44c9-985b-cebc30d1e0aa" >> .env && \
     echo "VITE_NY_TIMES_API_KEY=fB8KTzZ7zwKKfXHDif87F8ZiOxJIZehE" >> .env
 
 # Leverage Docker's caching by installing dependencies first (from package.json and package-lock.json)
