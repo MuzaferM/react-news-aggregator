@@ -61,11 +61,13 @@ docker run -p 80:80 news-aggregator:prod
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/0ecf10e7-05b7-46c1-8e82-26fbef2d0d15)
+![image](https://github.com/user-attachments/assets/c061c3fe-3168-4732-bc71-896219d626a1)
+
 
 ---
 
-![image](https://github.com/user-attachments/assets/128472ca-8f0e-4b40-aa9d-e3d423a28347)
+![image](https://github.com/user-attachments/assets/570a37dd-95fc-4425-b095-5d0a4ff0b4c1)
+
 
 ---
 # react-news-aggregator
