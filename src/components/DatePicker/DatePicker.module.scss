@@ -1,0 +1,83 @@
+@import "@/styles/variables.scss";
+
+.date-picker {
+  position: relative;
+  margin-bottom: 1rem;
+
+  &__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: $text-color;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    color: black;
+    cursor: pointer;
+  }
+
+  &__popup {
+    position: absolute;
+    z-index: 10;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  &__caption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 0.5rem;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    padding: 0 8px;
+  }
+
+  &__day {
+    color: black;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e0e0e0;
+      border-radius: 50%;
+    }
+  }
+
+  &__day-selected {
+    width: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+  }
+
+  &__day-outside {
+    color: #2c2b2b;
+  }
+
+  &__day-of-week {
+    color: gray;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+}

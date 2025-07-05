@@ -1,0 +1,44 @@
+@import "@/styles/variables.scss";
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 8px;
+  color: black;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  outline: none;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: $color-blue1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: $color-blue2;
+}
+
+@media (max-width: 576px) {
+  .search-input {
+    padding: 8px;
+    width: 200px;
+  }
+
+  .search-button {
+    padding: 8px;
+    border-radius: 4px;
+  }
+}

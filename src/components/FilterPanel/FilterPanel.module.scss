@@ -1,0 +1,28 @@
+@import "@/styles/variables.scss";
+
+.filterPanel {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid none;
+  border-radius: 8px;
+
+  &__subHeading {
+    color: $text-color;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: $color-blue1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-blue2;
+    }
+  }
+}

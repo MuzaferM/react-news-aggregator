@@ -1,0 +1,11 @@
+@import "@/styles/variables.scss";
+
+.custom-select {
+  margin-bottom: 1rem;
+
+  &__label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: $text-color;
+  }
+}
