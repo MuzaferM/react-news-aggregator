@@ -11,11 +11,15 @@ body {
 
 .container {
   padding: 1rem 2rem;
+
+  .main-header {
+    font-size: 2rem;
+  }
 }
 
 header {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 18px;
 
   h1 {
     color: $text-color;
@@ -212,6 +216,12 @@ header {
 }
 
 @media (max-width: 576px) {
+  .container {
+    .main-header {
+      font-size: 1.5rem;
+    }
+  }
+
   .personalized-feed {
     .customize-feed-button {
       padding: 8px 4px;

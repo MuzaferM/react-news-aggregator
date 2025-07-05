@@ -11,7 +11,7 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <header>
-        <h1>News Aggregator</h1>
+        <h1 className="main-header">News Aggregator</h1>
       </header>
       <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
       {activeTab === TabList.All && <AllNews />}
