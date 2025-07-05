@@ -73,7 +73,6 @@ const FilterPanel: React.FC<FilterProps> = ({ onFilterApply }) => {
         }
       />
 
-      {/* Apply Button */}
       <button
         onClick={handleApplyFilters}
         className={styles.filterPanel__button}

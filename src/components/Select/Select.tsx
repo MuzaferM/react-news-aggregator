@@ -62,7 +62,7 @@ const CustomSelect: React.FC<SelectProps> = ({
         onChange={(selectedOption) => onChange(selectedOption as SingleValue<SelectOption>)}
         placeholder="Select"
         classNamePrefix="react-select"
-        styles={customStyles} // Apply custom styles here
+        styles={customStyles}
       />
     </div>
   );

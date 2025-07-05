@@ -24,7 +24,7 @@ const DatePicker: React.FC<DatePickerProps> = ({
     nav: styles["date-picker__nav"],
     nav_button: styles["date-picker__nav-button"],
     day_outside: styles["date-picker__day-outside"],
-    head: styles["date-picker__day-of-week"], // Class for Sun, Mon, etc.
+    head: styles["date-picker__day-of-week"],
   };
 
   // Close the calendar when clicking outside

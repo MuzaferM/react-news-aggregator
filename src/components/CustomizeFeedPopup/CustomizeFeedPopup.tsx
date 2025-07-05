@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 import { Category, Source } from "@/types";
-import "./CustomizeFeedPopup.scss";
 import { capitalizeFirstLetter, formatSourceEnumLabel } from "@/utils/fixtures";
+import "./CustomizeFeedPopup.scss";
 
 interface CustomizeFeedPopupProps {
   preferences: {
