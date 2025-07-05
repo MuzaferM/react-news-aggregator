@@ -24,7 +24,7 @@ A modern news aggregator that provides personalized, categorized, and multi-sour
 
 - Modern, Responsive UI  
 
-- Live URL: https://news-aggregator-react.vercel.app/
+- Live URL: https://react-news-aggregator-one.vercel.app/
 
 ---
 
