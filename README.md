@@ -60,12 +60,17 @@ docker run -p 80:80 news-aggregator:prod
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/c061c3fe-3168-4732-bc71-896219d626a1)
+![image](https://github.com/user-attachments/assets/2a6c8541-ff88-4f54-b4b5-2fac13a13e28)
 
 
 ---
 
-![image](https://github.com/user-attachments/assets/570a37dd-95fc-4425-b095-5d0a4ff0b4c1)
+![image](https://github.com/user-attachments/assets/2fa1759c-b3a2-42dc-9b42-8a2cb2513386)
+
+
+---
+
+![image](https://github.com/user-attachments/assets/c81270e5-e69c-4b2e-b608-5228fc8d6cdf)
 
 
 ---
