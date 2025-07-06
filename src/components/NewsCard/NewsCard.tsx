@@ -1,5 +1,6 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { format } from "date-fns";
 import "./NewsCard.scss";
 
 interface NewsCardProps {
@@ -17,6 +18,8 @@ const NewsCard: React.FC<NewsCardProps> = ({
   author,
   description,
 }) => {
+  const formattedDate = format(new Date(publishedAt), 'MMMM d, yyyy');
+  
   return (
     <div className="news-card">
       <div className="news-content">
@@ -32,7 +35,7 @@ const NewsCard: React.FC<NewsCardProps> = ({
         </p>
         <div className="news-meta">
           <span className="news-date">
-            {new Date(publishedAt).toLocaleDateString()}
+            {formattedDate}
           </span>
           <span className="news-author">
             {author ? `By ${author}` : "By Unknown"}

@@ -35,12 +35,12 @@ export const getNews = async ({
     if (categoriesToFetch.length === 0) {
       const newsPromises = sourcesToFetch.map((src) => {
         switch (src) {
-          case Source.NewsOrg:
-            return getArticlesFromNewsOrgAPI(query, date);
           case Source.NYT:
             return getArticlesFromNewYorkTimesApi(query, date);
           case Source.Guardian:
             return getArticlesFromGuardianAPI(query, date);
+          case Source.NewsOrg:
+            return getArticlesFromNewsOrgAPI(query, date);
           default:
             return Promise.resolve([]);
         }
@@ -59,12 +59,12 @@ export const getNews = async ({
     const newsPromises = sourcesToFetch.flatMap((src) =>
       categoriesToFetch.map((cat) => {
         switch (src) {
-          case Source.NewsOrg:
-            return getArticlesFromNewsOrgAPI(query, date, cat);
           case Source.NYT:
             return getArticlesFromNewYorkTimesApi(query, date, cat);
           case Source.Guardian:
             return getArticlesFromGuardianAPI(query, date, cat);
+          case Source.NewsOrg:
+            return getArticlesFromNewsOrgAPI(query, date, cat);
           default:
             return Promise.resolve([]);
         }
