@@ -5,9 +5,10 @@ A modern news aggregator that provides personalized, categorized, and multi-sour
 ## Features  
 
 - Fetches news articles from the following APIs:  
-  - *News.org*
   - *The New York Times*
   - *The Guardian*
+  - *News.org*
+
 - Search articles by keywords.  
 
 - Filter articles by categories such as:  
@@ -22,9 +23,7 @@ A modern news aggregator that provides personalized, categorized, and multi-sour
   - Categories of interest  
   - Preferred news sources  
 
-- Modern, Responsive UI  
-
-- Live URL: https://react-news-aggregator-one.vercel.app/
+- Modern, Responsive UI
 
 ---
 
@@ -69,5 +68,7 @@ docker run -p 80:80 news-aggregator:prod
 ![image](https://github.com/user-attachments/assets/570a37dd-95fc-4425-b095-5d0a4ff0b4c1)
 
 
+- Live URL: https://react-news-aggregator-one.vercel.app/
+- >_Note: Due to API restrictions on the free Developer plans, both the NewsOrg and Guardian APIs only work on local environments. Browser-based requests are blocked in   production—these APIs allow requests only from localhost._
+
 ---
-# react-news-aggregator
