@@ -68,6 +68,8 @@ docker run -p 80:80 news-aggregator:prod
 ![image](https://github.com/user-attachments/assets/570a37dd-95fc-4425-b095-5d0a4ff0b4c1)
 
 
+---
+
 - Live URL: https://react-news-aggregator-one.vercel.app/
 - >_Note: Due to API restrictions on the free Developer plans, both the NewsOrg and Guardian APIs only work on local environments. Browser-based requests are blocked in   production—these APIs allow requests only from localhost._
 
